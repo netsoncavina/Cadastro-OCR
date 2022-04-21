@@ -12,6 +12,7 @@ from PIL import Image
 
 # GUI setup
 root = Tk()
+root.resizable(width=False, height=False)
 root.geometry('500x500')
 root.title("Formulário de cadastro")
 
